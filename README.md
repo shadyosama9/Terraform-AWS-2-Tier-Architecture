@@ -3,7 +3,7 @@
 - AWS account with appropriate permissions
 - Terraform installed locally
 
-# Overview
+### Overview
 
 The project is organized into modules for each component of the architecture, such as ALB, ASG, NAT Gateway, RDS, Route 53, Security Groups, and VPC. Each module contains the necessary Terraform configuration files (`main.tf`, `vars.tf`, `outputs.tf`) for provisioning the respective resources.
 
