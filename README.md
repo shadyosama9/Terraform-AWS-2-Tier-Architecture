@@ -41,14 +41,14 @@ The VPC module sets up a Virtual Private Cloud to isolate the application's netw
 
 ### Setup
 
-1. Create a hosted zone and an ACM on AWs
-2. Add the NS records of the hosted zone to your domain
+1. Create a hosted zone and an ACM on AWS.
+2. Add the NS records of the hosted zone to your domain.
 3. Navigate to the root directory.
 4. Clone the repository.
 5. Run `terraform init` to initialize the project.
 6. Run `terraform plan` to review the execution plan.
 7. Run `terraform apply` to apply the changes and create the infrastructure.
-8. After deployment, you can access the application using the ALB's DNS name.
+8. After deployment, you can access the application using the ALB's DNS name or your domain URL.
 
 ### Customization
 
